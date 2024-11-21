@@ -1,10 +1,10 @@
 package com.service.calculator;
 
 public class Calculator {
-  int firstOperand;
-  int secondOperand;
+  double firstOperand;
+  double secondOperand;
   String operation;
-  public Calculator(int firstOperand, int secondOperand, String operation) {
+  public Calculator(double firstOperand, double secondOperand, String operation) {
     this.firstOperand = firstOperand;
     this.secondOperand = secondOperand;
     this.operation = operation;
